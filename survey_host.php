@@ -1,5 +1,6 @@
 <?php
 include 'db.php';
+include 'auth_check.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Step 1: Submit survey response

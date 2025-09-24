@@ -1,5 +1,6 @@
 <?php
 include 'db.php';
+include 'auth_check.php';
 
 echo "<h2>Survey Responses</h2>";
 
